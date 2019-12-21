@@ -16,11 +16,13 @@ var face = document.querySelectorAll('.face');
 face.forEach(function(face) {
 	face.addEventListener('mouseover', changeColor);
 	face.addEventListener('mouseout', changeColor);
+	face.addEventListener('click', hideSmile);
 
 	function changeColor() {
 		var tcolor = tBody.classList.toggle('tcolor');
-		
+	}
+
+	function hideSmile() {
+		var smile = face.classList.add('smile');
 	}
 })
-		
-

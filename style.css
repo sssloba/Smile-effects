@@ -101,7 +101,11 @@ p {
 
 }
 
-.tcolor p {
+.tcolor p  {
 	visibility: visible;
 	
+}
+
+div.smile {
+	visibility: hidden;
 }
